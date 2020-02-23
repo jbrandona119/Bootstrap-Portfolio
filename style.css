@@ -4,3 +4,7 @@ body {
     background-image: url(./Assets/Images/geometric-leaves.png) !important;
     background-color: transparent !important;
 }
+
+img  {
+    width: 100%; height: auto; }
+}
