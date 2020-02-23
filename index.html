@@ -2,11 +2,12 @@
 <html>
 <head>
     <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!-- <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css"> -->
 </head> 
 <body>
+  
     <header id="masthead">
         <nav class="navbar">
             <div class="container-fluid">
@@ -23,13 +24,21 @@
             </div>
           </nav>
     </header>
-    <div id="main-container" class="container">
-    <section class="main-section">
-        <h2>About Me</h2>
-
-        <img src="c://Users/jbran/BOOTSTRAP PORTFOLIO/Bootstrap-Portfolio/Assets/Images/my photo.jpg" class="auth-image" alt="myphoto">
-
-        <p>Lorem ipsum dolor amet cloud bread farm-to-table kale chips venmo mustache 
+    <div class="container">
+      <div class="row">
+        <div class="col-6 ">
+          <h2 class="text-info">About Me</h2>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+    <picture> <img src="./Assets/Images/my photo.jpg" class="image-fluid img-thumbnail" alt="photo of me"> </picture>
+      
+      </div>      
+      <div class="col-md-6">
+      <p>Lorem ipsum dolor amet cloud bread farm-to-table kale chips venmo mustache 
         keytar blog, cray neutra distillery fixie lyft selfies waistcoat health goth. 
         Banh mi pok pok hella meh kitsch hell of you probably haven't heard of them craft beer tilde deep v 3 wolf moon. Whatever butcher green juice palo santo 
         salvia mlkshk chillwave bicycle rights chartreuse woke taxidermy blue bottle. Hoodie polaroid.</p>
@@ -51,7 +60,7 @@
         </div>
     </section>
 </div>
-    <footer>
+    <footer class="footer mt-auto py-3">
         <div class="container">
             &copy: Copyright 2020 Brandon Arnold
             Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>

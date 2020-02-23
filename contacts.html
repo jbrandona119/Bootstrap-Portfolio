@@ -26,29 +26,22 @@
     
     <div id="main-container" class="container">
     <section class="main-section">
-        <h1>Contact</h1>
+        <h1 class="text-info">Contact</h1>
         
-        <form id="contact-form">
-            <ul>
-                <li>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required="required">
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="example@email.com"
-                    required="required">
-                </li>
-                <li>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"
-                    required="required"></textarea>
-                </li>
-                <li>
-                    <input type="submit" name="submit">
-                </li>
-            </ul>
-        </form>
+        <form>
+            <div class="form-group">
+              <label for="FormEmail">Email address</label>
+              <input type="email" class="form-control" id="FormEmail" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="FormName">Name</label>
+              <textarea class="form-control" id="FormName" rows="1"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="FormMessage">Type your message here!</label>
+              <textarea class="form-control" id="FormMessage" rows="3"></textarea>
+            </div>
+          </form>
        
     </section>
 <!-- when adding the real photos for the buttons and stuff, do scr="assets/images/*name of file"-->
@@ -62,7 +55,7 @@
         </div>
     </section>
     </div>
-    <footer>
+    <footer class="footer mt-auto py-3">
         <div class="container">
             &copy: Copyright 2020 Brandon Arnold
         </div>
